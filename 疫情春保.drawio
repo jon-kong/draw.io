@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-11T14:28:25.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="2bLiCO_oCYlRm8vy3myr" version="12.6.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-11T14:31:53.015Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="UzI9CXPQRBqN1H_Q31Vb" version="12.6.6" type="github" pages="3">
   <diagram id="x_FaIlI_H5_Zrhrs0Eig" name="业务全景">
     <mxGraphModel dx="946" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -421,71 +421,77 @@
           <mxGeometry x="45" y="60" width="10" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-5">
-          <mxGeometry x="45" y="160" width="10" height="120" as="geometry"/>
+          <mxGeometry x="45" y="219" width="10" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-5">
-          <mxGeometry x="45" y="300" width="10" height="60" as="geometry"/>
+          <mxGeometry x="45" y="359" width="10" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-37" value="3.4计算商户的奖励" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontSize=12;fontColor=#000000;" edge="1" target="JkCdC66U0_vX_6zaAS3y-36" parent="JkCdC66U0_vX_6zaAS3y-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="280" as="sourcePoint"/>
+            <mxPoint x="50" y="339" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="75" y="280"/>
+              <mxPoint x="75" y="339"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-5">
-          <mxGeometry x="45" y="380" width="10" height="120" as="geometry"/>
+          <mxGeometry x="45" y="439" width="10" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-41" value="4.开启多线程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontSize=12;fontColor=#000000;" edge="1" target="JkCdC66U0_vX_6zaAS3y-40" parent="JkCdC66U0_vX_6zaAS3y-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="360" as="sourcePoint"/>
+            <mxPoint x="50" y="419" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="75" y="360"/>
+              <mxPoint x="75" y="419"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JkCdC66U0_vX_6zaAS3y-46" value="4.1 同步预算消耗记录" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-5" target="JkCdC66U0_vX_6zaAS3y-6">
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-46" value="4.1 同步预算消耗记录" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-5">
           <mxGeometry x="-0.2982" width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="410" as="sourcePoint"/>
-            <mxPoint x="130" y="410" as="targetPoint"/>
+            <mxPoint x="50" y="469" as="sourcePoint"/>
+            <mxPoint x="249.5" y="469" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-5">
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-6" value="预算系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="650" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-6">
-          <mxGeometry x="45" y="210" width="10" height="210" as="geometry"/>
+          <mxGeometry x="45" y="269" width="10" height="210" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-7" value="BDI/数据模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="60" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-7">
-          <mxGeometry x="50" y="110" width="10" height="40" as="geometry"/>
+          <mxGeometry x="45" y="167" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="JkCdC66U0_vX_6zaAS3y-28" value="2.计算任务完成情况" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontSize=12;fontColor=#000000;" edge="1" target="JkCdC66U0_vX_6zaAS3y-27" parent="JkCdC66U0_vX_6zaAS3y-7">
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-28" value="2.1.计算任务完成情况" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontSize=12;fontColor=#000000;" edge="1" target="JkCdC66U0_vX_6zaAS3y-27" parent="JkCdC66U0_vX_6zaAS3y-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="90" as="sourcePoint"/>
+            <mxPoint x="55" y="147" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="80" y="90"/>
+              <mxPoint x="80" y="147"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-7">
-          <mxGeometry x="45" y="190" width="10" height="40" as="geometry"/>
+          <mxGeometry x="45" y="249" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-7">
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-8" value="结算账户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="810" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-8">
-          <mxGeometry x="45" y="420" width="10" height="40" as="geometry"/>
+          <mxGeometry x="45" y="479" width="10" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-9" value="CPC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="970" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-9">
-          <mxGeometry x="45" y="460" width="10" height="40" as="geometry"/>
+          <mxGeometry x="45" y="519" width="10" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-12" value="1.创建冲单任务" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;dashed=1;fontSize=12;fontColor=#000000;exitX=1.3;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JkCdC66U0_vX_6zaAS3y-11" parent="JkCdC66U0_vX_6zaAS3y-1" source="JkCdC66U0_vX_6zaAS3y-10">
           <mxGeometry x="-0.4438" relative="1" as="geometry">
@@ -500,55 +506,62 @@
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-22" value="3.1.查询任务完成情况" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;exitX=0.1;exitY=0.513;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1" target="JkCdC66U0_vX_6zaAS3y-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="496" y="223.03999999999996" as="sourcePoint"/>
-            <mxPoint x="119" y="224" as="targetPoint"/>
+            <mxPoint x="496" y="282.03999999999996" as="sourcePoint"/>
+            <mxPoint x="119" y="283" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-23" value="WorkFlow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-100" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-23">
-          <mxGeometry x="45" y="140" width="10" height="50" as="geometry"/>
+          <mxGeometry x="45" y="199" width="10" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-30" value="3.定时触发发放奖励" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=12;fontColor=#000000;exitX=1.3;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1" source="JkCdC66U0_vX_6zaAS3y-25" target="JkCdC66U0_vX_6zaAS3y-15">
           <mxGeometry x="-0.7691" y="5" relative="1" as="geometry">
-            <mxPoint x="-40" y="190.67999999999995" as="sourcePoint"/>
-            <mxPoint x="147" y="190" as="targetPoint"/>
+            <mxPoint x="-40" y="249.67999999999995" as="sourcePoint"/>
+            <mxPoint x="147" y="249" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-32" value="3.2查询预算是否可用" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;exitX=1.1;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-0.3191" y="1" relative="1" as="geometry">
-            <mxPoint x="506" y="239.12" as="sourcePoint"/>
-            <mxPoint x="695" y="239.12" as="targetPoint"/>
+            <mxPoint x="506" y="298.12" as="sourcePoint"/>
+            <mxPoint x="695" y="298.12" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-33" value="3.3查询剩余预算金额" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;exitX=1.1;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-0.2857" relative="1" as="geometry">
-            <mxPoint x="500" y="271.99999999999994" as="sourcePoint"/>
-            <mxPoint x="696" y="271.97" as="targetPoint"/>
+            <mxPoint x="500" y="330.99999999999994" as="sourcePoint"/>
+            <mxPoint x="696" y="330.97" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-38" value="3.5查询剩余预算金额" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;exitX=1.1;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-0.2857" relative="1" as="geometry">
-            <mxPoint x="500" y="350.03" as="sourcePoint"/>
-            <mxPoint x="696" y="350" as="targetPoint"/>
+            <mxPoint x="500" y="409.03" as="sourcePoint"/>
+            <mxPoint x="696" y="409" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-47" value="4.2 现金奖励，给商家结算账户加钱" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-0.3944" width="80" relative="1" as="geometry">
-            <mxPoint x="501" y="475" as="sourcePoint"/>
-            <mxPoint x="861" y="475" as="targetPoint"/>
+            <mxPoint x="501" y="534" as="sourcePoint"/>
+            <mxPoint x="861" y="534" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-48" value="4.3 发放CPC券/体验金" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="-0.7308" width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="508" as="sourcePoint"/>
-            <mxPoint x="1020" y="508" as="targetPoint"/>
+            <mxPoint x="500" y="567" as="sourcePoint"/>
+            <mxPoint x="1020" y="567" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-51" value="2.BDI抽表（任务规则、奖励规则）" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=12;fontColor=#000000;exitX=0.1;exitY=0.513;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JkCdC66U0_vX_6zaAS3y-1">
+          <mxGeometry x="0.4256" relative="1" as="geometry">
+            <mxPoint x="493" y="141.99999999999997" as="sourcePoint"/>
+            <mxPoint x="110" y="143" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
