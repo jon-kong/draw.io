@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-11T14:31:53.015Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="UzI9CXPQRBqN1H_Q31Vb" version="12.6.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-11T14:33:31.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="yvQKt6wYwfHM0SZPUSg1" version="12.6.6" type="github" pages="3">
   <diagram id="x_FaIlI_H5_Zrhrs0Eig" name="业务全景">
     <mxGraphModel dx="946" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t8NZk54HXPw0LfxVQNpW" name="交互图">
-    <mxGraphModel dx="1773" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-0"/>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-1" parent="JkCdC66U0_vX_6zaAS3y-0"/>
@@ -414,7 +414,7 @@
         <mxCell id="JkCdC66U0_vX_6zaAS3y-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-4">
           <mxGeometry x="45" y="60" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="JkCdC66U0_vX_6zaAS3y-5" value="商户任务" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
+        <mxCell id="JkCdC66U0_vX_6zaAS3y-5" value="商户任务" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#23445d;recursiveResize=0;container=1;collapsible=0;fillColor=#bac8d3;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-1">
           <mxGeometry x="450" y="20" width="100" height="590" as="geometry"/>
         </mxCell>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="JkCdC66U0_vX_6zaAS3y-5">
