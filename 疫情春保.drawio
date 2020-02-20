@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T03:04:44.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="KB22YLYs1AMW_XujMa0J" version="12.7.0" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-02-20T02:03:42.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="f78q0x0FepevT1woZEi4" version="12.7.0" type="github" pages="5">
   <diagram id="x_FaIlI_H5_Zrhrs0Eig" name="业务全景">
     <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t8NZk54HXPw0LfxVQNpW" name="交互图">
-    <mxGraphModel dx="1773" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-0"/>
         <mxCell id="JkCdC66U0_vX_6zaAS3y-1" parent="JkCdC66U0_vX_6zaAS3y-0"/>
@@ -717,7 +717,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0xsFD3DZ9RBN5wPG7fiV" name="ER图">
-    <mxGraphModel dx="946" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J2XAO2dK0TPaMJ_7W41L-0"/>
         <mxCell id="J2XAO2dK0TPaMJ_7W41L-1" parent="J2XAO2dK0TPaMJ_7W41L-0"/>
@@ -877,7 +877,7 @@
         <mxCell id="HAjDTl6tqBL-uOiRTiPd-60" value="task_finished_ranking（任务完成度排名）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-41">
           <mxGeometry y="219" width="240" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="vWgwEyvybBJHFzbYHgLZ-3" value="extend_field（扩展字段）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-41">
+        <mxCell id="vWgwEyvybBJHFzbYHgLZ-3" value="commission（佣金金额）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-41">
           <mxGeometry y="245" width="240" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="HAjDTl6tqBL-uOiRTiPd-49" value="updated_at（数据更新时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-41">
@@ -887,7 +887,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="HAjDTl6tqBL-uOiRTiPd-52" value="tb_shop_sprint_task_reward&#xa;店铺冲单任务奖励记录" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=33;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;rounded=1;arcSize=13;fontColor=#FF0000;" vertex="1" parent="J2XAO2dK0TPaMJ_7W41L-1">
-          <mxGeometry x="1020" y="340" width="250" height="219" as="geometry">
+          <mxGeometry x="1015" y="370" width="250" height="245" as="geometry">
             <mxRectangle x="70" y="180" width="200" height="40" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -911,6 +911,9 @@
         </mxCell>
         <mxCell id="HAjDTl6tqBL-uOiRTiPd-56" value="reward_status（奖励状态：已发放、未发放）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-52">
           <mxGeometry y="193" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWgwEyvybBJHFzbYHgLZ-4" value="budget_status（预算状态：已同步、未同步）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="HAjDTl6tqBL-uOiRTiPd-52">
+          <mxGeometry y="219" width="250" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="HAjDTl6tqBL-uOiRTiPd-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="J2XAO2dK0TPaMJ_7W41L-1" source="HAjDTl6tqBL-uOiRTiPd-54" target="HAjDTl6tqBL-uOiRTiPd-3">
           <mxGeometry relative="1" as="geometry"/>
