@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-23T09:44:56.903Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="eCwLEc-C7DhR7aT-T4pM" version="12.8.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-23T09:45:50.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="X1mYvgIMEQ_ht5Fh8tev" version="12.8.8" type="github" pages="6">
   <diagram id="x_FaIlI_H5_Zrhrs0Eig" name="业务全景">
     <mxGraphModel dx="946" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1241,6 +1241,9 @@
         </mxCell>
         <mxCell id="bSppMAfeonCap6BT2OVL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J2XAO2dK0TPaMJ_7W41L-1" source="HAjDTl6tqBL-uOiRTiPd-54" target="bSppMAfeonCap6BT2OVL-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSppMAfeonCap6BT2OVL-15" value="&lt;font color=&quot;#ff0000&quot;&gt;说明：红色字体为新增的表、字段&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="J2XAO2dK0TPaMJ_7W41L-1">
+          <mxGeometry x="20" y="6" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
