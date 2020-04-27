@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T04:25:50.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="nS18BedUWlfWKSjJd16Z" version="13.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-27T02:43:55.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="_yzYajkXLdI2CP_-DQTK" version="13.0.1" type="github" pages="3">
   <diagram id="5dy7yaolOnMXZYMXIKAr" name="应用架构改造方案">
     <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,40 +410,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-6" value="tb_holiday_apply&#xa;商户歇业申请记录" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="KMUKlMn8Zo8LeYxli9vk-1" vertex="1">
-          <mxGeometry x="320" y="30" width="190" height="321" as="geometry" />
+          <mxGeometry x="320" y="30" width="230" height="347" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-7" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="35" width="190" height="26" as="geometry" />
+          <mxGeometry y="35" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-8" value="shop_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="61" width="190" height="26" as="geometry" />
+          <mxGeometry y="61" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-9" value="shop_name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="87" width="190" height="26" as="geometry" />
+          <mxGeometry y="87" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u09uvxaiWvhusf4_mOGB-32" value="channel（申请渠道 0 app 1pc 2开放平台）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="KMUKlMn8Zo8LeYxli9vk-6">
+          <mxGeometry y="113" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-16" value="begin_time（歇业开始时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="113" width="190" height="26" as="geometry" />
+          <mxGeometry y="139" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-17" value="end_time（歇业结束时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="139" width="190" height="26" as="geometry" />
+          <mxGeometry y="165" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-18" value="days（歇业天数）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="165" width="190" height="26" as="geometry" />
+          <mxGeometry y="191" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-21" value="real_begin_time（实际开始时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="191" width="190" height="26" as="geometry" />
+          <mxGeometry y="217" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-22" value="real_end_time（实际结束时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="217" width="190" height="26" as="geometry" />
+          <mxGeometry y="243" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-23" value="use_days（实际歇业天数）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="243" width="190" height="26" as="geometry" />
+          <mxGeometry y="269" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-25" value="status（歇业申请单状态）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="269" width="190" height="26" as="geometry" />
+          <mxGeometry y="295" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KMUKlMn8Zo8LeYxli9vk-26" value="reason_type（歇业原因）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="KMUKlMn8Zo8LeYxli9vk-6" vertex="1">
-          <mxGeometry y="295" width="190" height="26" as="geometry" />
+          <mxGeometry y="321" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u09uvxaiWvhusf4_mOGB-10" value="tb_holiday_checkout_bill&#xa;假期歇业结算单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontColor=#FF0000;" vertex="1" parent="KMUKlMn8Zo8LeYxli9vk-1">
           <mxGeometry x="320" y="425" width="210" height="165" as="geometry" />
@@ -529,10 +532,10 @@
         <mxCell id="u09uvxaiWvhusf4_mOGB-24" value="end_date（结束日期）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="u09uvxaiWvhusf4_mOGB-21">
           <mxGeometry y="112" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u09uvxaiWvhusf4_mOGB-28" value="days（歇业天数）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="u09uvxaiWvhusf4_mOGB-21">
+        <mxCell id="u09uvxaiWvhusf4_mOGB-28" value="days（扣减歇业天数）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="u09uvxaiWvhusf4_mOGB-21">
           <mxGeometry y="138" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u09uvxaiWvhusf4_mOGB-25" value="stock_type（歇业额度类型 0商家 1平台 2赠送）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="u09uvxaiWvhusf4_mOGB-21">
+        <mxCell id="u09uvxaiWvhusf4_mOGB-25" value="stock_type（扣减额度类型 0商家 1平台 2赠送）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="u09uvxaiWvhusf4_mOGB-21">
           <mxGeometry y="164" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u09uvxaiWvhusf4_mOGB-0" value="tb_holiday_gift&#xa;定向赠送额度" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontColor=#FF0000;" vertex="1" parent="KMUKlMn8Zo8LeYxli9vk-1">
