@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-29T04:05:08.995Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="jfLcPP7_Zzc8cgRZv-Xq" version="13.1.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-05-29T04:06:06.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="HdAPjOG2GlBl_OZrDSyM" version="13.1.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新店任务自动触发">
     <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,7 +396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GRuxnXOrLjPLrIwf_CfJ" name="业务领域视图">
-    <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="35LG5SZTqkbiBEXPCvJK-0" />
         <mxCell id="35LG5SZTqkbiBEXPCvJK-1" parent="35LG5SZTqkbiBEXPCvJK-0" />
@@ -427,7 +427,7 @@
         <mxCell id="35LG5SZTqkbiBEXPCvJK-11" value="攻略配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;dashed=1;" vertex="1" parent="35LG5SZTqkbiBEXPCvJK-1">
           <mxGeometry x="309" y="275" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="35LG5SZTqkbiBEXPCvJK-12" value="奖励发放" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#F2A40B;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="35LG5SZTqkbiBEXPCvJK-1">
+        <mxCell id="35LG5SZTqkbiBEXPCvJK-12" value="奖励发放" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#F2A40B;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="35LG5SZTqkbiBEXPCvJK-1">
           <mxGeometry x="539" y="210" width="100" height="190" as="geometry" />
         </mxCell>
       </root>
