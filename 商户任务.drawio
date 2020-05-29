@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-29T06:47:14.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="rojgOm-8Bapm6xebwY6a" version="13.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-05-29T09:54:04.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="yMAD1WnP0Ef0OeGcdYSS" version="13.1.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新店任务自动触发">
     <mxGraphModel dx="946" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="冲单满减补贴任务流程" id="v50M4EZh-qIgi1KASRkp">
-    <mxGraphModel dx="946" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hk_39UNqRZv6SNy9K0qU-0" />
         <mxCell id="hk_39UNqRZv6SNy9K0qU-1" parent="hk_39UNqRZv6SNy9K0qU-0" />
@@ -406,7 +406,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GRuxnXOrLjPLrIwf_CfJ" name="业务领域视图">
-    <mxGraphModel dx="946" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="35LG5SZTqkbiBEXPCvJK-0" />
         <mxCell id="35LG5SZTqkbiBEXPCvJK-1" parent="35LG5SZTqkbiBEXPCvJK-0" />
@@ -444,7 +444,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qJqHc7UhYZzXA4XRMs69" name="应用部署图">
-    <mxGraphModel dx="946" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-WFPD1GRQM5gON0t3-AD-0" />
         <mxCell id="-WFPD1GRQM5gON0t3-AD-1" parent="-WFPD1GRQM5gON0t3-AD-0" />
@@ -496,7 +496,7 @@
         <mxCell id="-WFPD1GRQM5gON0t3-AD-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="-WFPD1GRQM5gON0t3-AD-1" source="-WFPD1GRQM5gON0t3-AD-72" target="-WFPD1GRQM5gON0t3-AD-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-WFPD1GRQM5gON0t3-AD-72" value="商户任务&lt;br&gt;vas.newshop_opt_service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="-WFPD1GRQM5gON0t3-AD-1">
+        <mxCell id="-WFPD1GRQM5gON0t3-AD-72" value="商户任务&lt;br&gt;vas.newshop_opt_service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffcc99;strokeColor=#36393d;fontStyle=1" vertex="1" parent="-WFPD1GRQM5gON0t3-AD-1">
           <mxGeometry x="285" y="305" width="257.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-WFPD1GRQM5gON0t3-AD-73" value="奖励中心&lt;br&gt;vas.equity_center_service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="-WFPD1GRQM5gON0t3-AD-1">
