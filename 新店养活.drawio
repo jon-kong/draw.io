@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-01T13:44:41.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="koySuFWOlZKnkkDk_SU8" version="13.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-01T13:56:57.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="LoSvSiBAP-9wjUFcIY-0" version="13.1.6" type="github">
   <diagram id="NKb5eh6zSzLafwcEyk5-" name="ER图">
     <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-18" value="tb_st_strategy&#xa;任务规则-主表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="69" y="30" width="310" height="196" as="geometry" />
+          <mxGeometry x="69" y="30" width="310" height="222" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-19" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-18">
           <mxGeometry y="40" width="310" height="26" as="geometry" />
@@ -28,7 +28,10 @@
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-24" value="is_default（是否兜底策略）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-18">
           <mxGeometry y="170" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="peM3f7SM7AnIZ7V3IR_f-1" value="tb_st_strategy_task_package&#xa;任务规则-任务包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="peM3f7SM7AnIZ7V3IR_f-76" value="shop_tag（店铺标签（字符串逗号分隔））" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-18">
+          <mxGeometry y="196" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="peM3f7SM7AnIZ7V3IR_f-1" value="tb_st_strategy_task_package&#xa;任务模板-任务包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="69" y="290" width="310" height="196" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-2" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-1">
@@ -49,7 +52,7 @@
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-8" value="task_pass_line（任务达标线）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-1">
           <mxGeometry y="170" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="peM3f7SM7AnIZ7V3IR_f-9" value="tb_st_strategy_subtask&#xa;任务规则-子任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="peM3f7SM7AnIZ7V3IR_f-9" value="tb_st_strategy_subtask&#xa;任务模板-子任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="69" y="540" width="310" height="170" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-10" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-9">
@@ -67,14 +70,6 @@
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-14" value="subtask_info（任务信息）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-9">
           <mxGeometry y="144" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="peM3f7SM7AnIZ7V3IR_f-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="1" source="peM3f7SM7AnIZ7V3IR_f-11" target="peM3f7SM7AnIZ7V3IR_f-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="30" y="619" />
-              <mxPoint x="30" y="83" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="1" source="peM3f7SM7AnIZ7V3IR_f-17" target="peM3f7SM7AnIZ7V3IR_f-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -90,7 +85,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-38" value="tb_st_shop_subtask&#xa;店铺子任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="540" width="310" height="300" as="geometry" />
+          <mxGeometry x="500" y="618" width="310" height="300" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-39" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-38">
           <mxGeometry y="40" width="310" height="26" as="geometry" />
@@ -123,7 +118,7 @@
           <mxGeometry y="274" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-25" value="tb_st_shop_task&#xa;店铺任务包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="212" width="310" height="274" as="geometry" />
+          <mxGeometry x="500" y="290" width="310" height="274" as="geometry" />
         </mxCell>
         <mxCell id="peM3f7SM7AnIZ7V3IR_f-26" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="peM3f7SM7AnIZ7V3IR_f-25">
           <mxGeometry y="40" width="310" height="26" as="geometry" />
