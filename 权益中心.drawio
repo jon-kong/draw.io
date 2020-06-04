@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-04T13:46:04.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="GC7cMayG-Nkq53R7W79o" version="13.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-04T13:52:20.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="u717Rhr7FX_b9PIV2GBT" version="13.1.6" type="github">
   <diagram id="2PnTl74UNKqRBuYetURC" name="逻辑架构">
     <mxGraphModel dx="815" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,17 +13,17 @@
         <mxCell id="m5zRSeu44S-avt-80JpC-4" value="B端权益中心" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="74" y="150" width="546" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="m5zRSeu44S-avt-80JpC-5" value="权益接入注册" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+        <mxCell id="m5zRSeu44S-avt-80JpC-5" value="权益接入注册" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="94" y="380" width="446" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m5zRSeu44S-avt-80JpC-6" value="权益" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="94" y="290" width="446" height="80" as="geometry" />
+        <mxCell id="m5zRSeu44S-avt-80JpC-6" value="权益" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="94" y="270" width="446" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="m5zRSeu44S-avt-80JpC-7" value="发放渠道配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="94" y="200" width="446" height="80" as="geometry" />
+        <mxCell id="m5zRSeu44S-avt-80JpC-7" value="发放渠道配置" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="94" y="190" width="446" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="m5zRSeu44S-avt-80JpC-8" value="权益消费方配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="44" height="260" as="geometry" />
+        <mxCell id="m5zRSeu44S-avt-80JpC-8" value="权益消费方配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="44" height="270" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-9" value="饿掌柜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="70" width="90" height="40" as="geometry" />
@@ -56,22 +56,22 @@
           <mxGeometry x="649" y="340" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-20" value="权益模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="184" y="320" width="71" height="25" as="geometry" />
+          <mxGeometry x="120" y="300" width="75" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="m5zRSeu44S-avt-80JpC-22" value="发放记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375.25" y="320" width="68.5" height="25" as="geometry" />
+        <mxCell id="m5zRSeu44S-avt-80JpC-22" value="权益发放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309.5" y="300" width="75" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-23" value="模板权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="184.5" y="237.5" width="70" height="25" as="geometry" />
+          <mxGeometry x="184.5" y="217.5" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-24" value="渠道信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="278.5" y="237.5" width="70" height="25" as="geometry" />
+          <mxGeometry x="278.5" y="217.5" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="374.5" y="237.5" width="70" height="25" as="geometry" />
+          <mxGeometry x="374.5" y="217.5" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-26" value="权益项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="277.25" y="320" width="74.5" height="25" as="geometry" />
+          <mxGeometry x="213.25" y="300" width="75" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-29" value="权益注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="410" width="71" height="25" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry x="277.25" y="410" width="71" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-32" value="权益核对" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="372.75" y="410" width="71" height="25" as="geometry" />
+          <mxGeometry x="309.5" y="335" width="75" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-33" value="RANK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95.75" y="530" width="90" height="40" as="geometry" />
@@ -93,6 +93,15 @@
         </mxCell>
         <mxCell id="m5zRSeu44S-avt-80JpC-36" value="……" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="424" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m5zRSeu44S-avt-80JpC-38" value="权益撤销" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405.25" y="300" width="75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="m5zRSeu44S-avt-80JpC-39" value="&amp;nbsp;预算管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="335" width="75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="m5zRSeu44S-avt-80JpC-40" value="风控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213.25" y="335" width="75" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
