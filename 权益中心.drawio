@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-09T03:15:24.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="Itmtt_YTNI_0kZdXlFQG" version="13.1.14" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-06-12T04:55:21.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="IC5NlPde_sE7FrzXWml9" version="13.1.14" type="github" pages="3">
   <diagram id="2PnTl74UNKqRBuYetURC" name="权益逻辑架构">
     <mxGraphModel dx="815" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,6 +124,9 @@
         <mxCell id="DMx_Uf9_NNBvgIRHCyFm-2" value="数据统计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="321.5" y="357.5" width="75" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="DMx_Uf9_NNBvgIRHCyFm-3" value="……" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="480" width="71" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -152,6 +155,62 @@
         </mxCell>
         <mxCell id="xYQMh_BDksizLYPRi_n0-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="eIxTCOxy4NR1cOcmRk1r-1" vertex="1">
           <mxGeometry x="134.5" y="110" width="115.5" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="agbKfEG_clA7j5v_aPXL" name="ER图">
+    <mxGraphModel dx="815" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-0" />
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-1" parent="ENWn09RWQy2P7UWhgIr7-0" />
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-2" value="tb_reward_item&#xa;权益项" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-1">
+          <mxGeometry x="430" y="120" width="270" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-3" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="40" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-4" value="strategy_name（任务策略名称）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="66" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-5" value="effective_start_time（开始生效时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="92" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-6" value="shop_business_type（店铺业务类型（位存储)）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="118" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-7" value="guide_id（新店提单攻略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="144" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-8" value="is_default（是否兜底策略）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="170" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-9" value="shop_tag（店铺标签（字符串逗号分隔））" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-2">
+          <mxGeometry y="196" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-10" value="tb_reward_template&#xa;权益模板" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-1">
+          <mxGeometry x="50" y="120" width="250" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-11" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-12" value="strategy_name（任务策略名称）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="66" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-13" value="effective_start_time（开始生效时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="92" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-14" value="shop_business_type（店铺业务类型（位存储)）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="118" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-15" value="guide_id（新店提单攻略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="144" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-16" value="is_default（是否兜底策略）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="170" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENWn09RWQy2P7UWhgIr7-17" value="shop_tag（店铺标签（字符串逗号分隔））" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="ENWn09RWQy2P7UWhgIr7-10">
+          <mxGeometry y="196" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
