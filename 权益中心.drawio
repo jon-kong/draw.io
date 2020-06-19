@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T08:50:22.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="x20ze-MtW5XAuV9Iey1r" version="13.2.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-19T08:50:36.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="Qbv276H2U1YA_swLh2PE" version="13.2.6" type="github" pages="3">
   <diagram id="2PnTl74UNKqRBuYetURC" name="权益逻辑架构">
     <mxGraphModel dx="815" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,10 +260,10 @@
         <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-11" value="request_id（请求流水id）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
           <mxGeometry y="170" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-46" value="bizCode（请求业务单号）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
+        <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-16" value="request_time（请求时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
           <mxGeometry y="196" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-16" value="request_time（请求时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
+        <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-46" value="bizCode（请求业务单号）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
           <mxGeometry y="222" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="L4hvQWv5Ow1Ec-bKiDa0-20" value="status（权益数据状态 0有效 1无效）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="L4hvQWv5Ow1Ec-bKiDa0-5">
