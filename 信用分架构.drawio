@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T08:18:28.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="hPZ6ahzTfPKCywLp4eyF" version="13.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-08-11T08:19:00.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="p_8o-6UzmZhRe1QaK-mg" version="13.6.0" type="github" pages="6">
   <diagram id="pA3Y6Cr9iSXV0PsNSo0h" name="用例图">
     <mxGraphModel dx="1642" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,117 +447,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mtEp2v5yBrMJ6UkpWxpy" name="ER图">
-    <mxGraphModel dx="815" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="GKjYK79BtJoGpypn6bcU-1" value="tb_scs_shop_credit_score&#xa;商户信用分" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="60" y="80" width="190" height="136" as="geometry">
-            <mxRectangle x="70" y="90" width="180" height="32" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-2" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-1" vertex="1">
-          <mxGeometry y="32" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-5" value="shop_id（商户ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-1" vertex="1">
-          <mxGeometry y="58" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-3" value="credit_score（信用分分值）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-1" vertex="1">
-          <mxGeometry y="84" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-4" value="city_id（城市ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-1" vertex="1">
-          <mxGeometry y="110" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-6" value="tb_scs_incentive_measures&#xa;信用分惩罚措施" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="340" y="80" width="240" height="188" as="geometry">
-            <mxRectangle x="70" y="90" width="180" height="32" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-7" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="32" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-8" value="incentive_method（惩罚方式 1奖励 2惩罚）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="58" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-9" value="program_type（方案类型 1奖惩 2权益）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="84" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-10" value="incentive_rule（惩罚规则描述）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="110" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-16" value="incentive_measures_type（措施类型 1警告）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="136" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-17" value="shop_type（适用商户品类 1餐饮 2新零售）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-6" vertex="1">
-          <mxGeometry y="162" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-11" value="tb_scs_program&#xa;信用分方案" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="60" y="310" width="270" height="370" as="geometry">
-            <mxRectangle x="70" y="90" width="180" height="32" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-12" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="32" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-13" value="program_name（方案名称）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="58" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-14" value="program_code（方案Code）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="84" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-15" value="program_desc（方案描述）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="110" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-18" value="program_rules（方案规则描述）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="136" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-19" value="program_type（方案类型：1奖惩 2权益）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="162" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-20" value="incentive_method（奖惩方式 1奖励 2惩罚）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="188" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-21" value="punish_trigger_type（惩罚触发类型 1手动 2自动）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="214" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-24" value="complaint_support_status（是否支持申诉 0不支持 1支持）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="240" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-22" value="auto_detection_rule（自动检测规则描述）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="266" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-23" value="adaptation_shop_rule（适配商户规则描述）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="292" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-25" value="shop_type（适用商户品类 1餐饮 2新零售）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="318" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-26" value="controls_party（管控方 0默认 1客服 2风控 3合规 4商运 5廉政）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-11" vertex="1">
-          <mxGeometry y="344" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-27" value="tb_scs_incentive_batch&#xa;信用分奖惩批次" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="390" y="310" width="190" height="136" as="geometry">
-            <mxRectangle x="70" y="90" width="180" height="32" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-28" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-27" vertex="1">
-          <mxGeometry y="32" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-29" value="shop_id（商户ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-27" vertex="1">
-          <mxGeometry y="58" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-30" value="credit_score（信用分分值）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-27" vertex="1">
-          <mxGeometry y="84" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="GKjYK79BtJoGpypn6bcU-31" value="city_id（城市ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="GKjYK79BtJoGpypn6bcU-27" vertex="1">
-          <mxGeometry y="110" width="190" height="26" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="DES5uKdLV0K3_VNBIYU5" name="ER图简版">
-    <mxGraphModel dx="815" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="E63VzC5uOBaY14qbAmVK-0" />
         <mxCell id="E63VzC5uOBaY14qbAmVK-1" parent="E63VzC5uOBaY14qbAmVK-0" />
