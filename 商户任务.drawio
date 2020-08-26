@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T03:24:20.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="xkXJnI8k7w8Cwke3ZigW" version="13.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-08-26T03:32:40.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="NeTfkxSdXw4-tj6rLMut" version="13.6.2" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新店任务自动触发">
     <mxGraphModel dx="815" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -650,10 +650,10 @@
         <mxCell id="Eip-nrV7aEOdmD_WDtm8-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Eip-nrV7aEOdmD_WDtm8-7">
           <mxGeometry x="45" y="280" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eip-nrV7aEOdmD_WDtm8-6" value="1.策略中心通知店铺预警、熔断&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0EMHY5V1VYnabMqKT71B-1" source="Eip-nrV7aEOdmD_WDtm8-2" target="Eip-nrV7aEOdmD_WDtm8-1">
+        <mxCell id="Eip-nrV7aEOdmD_WDtm8-6" value="1.策略中心通知店铺预警、熔断&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0EMHY5V1VYnabMqKT71B-1">
           <mxGeometry x="-0.0928" y="-1" width="80" relative="1" as="geometry">
-            <mxPoint x="100" y="140" as="sourcePoint" />
-            <mxPoint x="345.5" y="140" as="targetPoint" />
+            <mxPoint x="95" y="138.59000000000003" as="sourcePoint" />
+            <mxPoint x="309.5" y="138.59000000000003" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -662,15 +662,15 @@
             <mxPoint x="320" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eip-nrV7aEOdmD_WDtm8-10" value="4. 通知信息保存DB（预警、熔断）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eip-nrV7aEOdmD_WDtm8-9">
+        <mxCell id="Eip-nrV7aEOdmD_WDtm8-10" value="4. 保存通知记录（预警、熔断）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eip-nrV7aEOdmD_WDtm8-9">
           <mxGeometry x="-0.0848" y="1" relative="1" as="geometry">
-            <mxPoint x="8" y="-9" as="offset" />
+            <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Eip-nrV7aEOdmD_WDtm8-11" value="5. 发送触达通知" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0EMHY5V1VYnabMqKT71B-1">
-          <mxGeometry x="-0.7349" y="16" relative="1" as="geometry">
-            <mxPoint x="321" y="356" as="sourcePoint" />
-            <mxPoint x="705.8199999999999" y="355.98" as="targetPoint" />
+          <mxGeometry x="-0.7229" y="16" relative="1" as="geometry">
+            <mxPoint x="318" y="356" as="sourcePoint" />
+            <mxPoint x="707.8199999999999" y="355.98" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -680,7 +680,7 @@
         <mxCell id="Eip-nrV7aEOdmD_WDtm8-13" value="&lt;font color=&quot;#0000ff&quot;&gt;tb_bbu_task_notice&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0EMHY5V1VYnabMqKT71B-1">
           <mxGeometry x="340" y="300" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Eip-nrV7aEOdmD_WDtm8-18" value="3. 查询通知店铺是否存在B补任务" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;startFill=0;entryX=0.027;entryY=0.207;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="Eip-nrV7aEOdmD_WDtm8-17" parent="0EMHY5V1VYnabMqKT71B-1">
+        <mxCell id="Eip-nrV7aEOdmD_WDtm8-18" value="3. 查询通知店铺是否存在B补任务" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;startFill=0;" edge="1" parent="0EMHY5V1VYnabMqKT71B-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="316" y="229" as="sourcePoint" />
             <mxPoint x="521" y="229" as="targetPoint" />
