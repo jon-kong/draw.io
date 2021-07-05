@@ -1,1 +1,217 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T04:10:27.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.8.0" etag="XgcDA2UHyP7deocn30XR" type="github"><diagram id="ReCLWSTY9DPHoClR30AF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-05T13:52:30.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="suwe8YdXDUISeJcHmqGR" version="14.8.0" type="github">
+  <diagram id="ReCLWSTY9DPHoClR30AF" name="用例">
+    <mxGraphModel dx="2078" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-2" value="商户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9" y="83" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-3" value="为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="168" y="83" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-4" value="店铺" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="83" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-5" value="创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="317" y="83" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-7" value="满30-5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="594" y="83" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-8" value="来源是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="83" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-9" value="满减活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689" y="83" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-10" value="角色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="9" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-12" value="在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="83" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-13" value="Napos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99" y="83" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-14" value="渠道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="104" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-15" value="活动主体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="214" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-16" value="操作类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="307" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-18" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;一个&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="83" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-19" value="规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="599" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-20" value="活动类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="689" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-23" value="店铺的商品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="204" y="123" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-24" value="报名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="317" y="123" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-25" value="特价19元" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="123" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-26" value="来源是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="123" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-27" value="商品活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689" y="123" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-30" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;一个&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="123" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-32" value="销售" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-34" value="为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="168" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-35" value="店铺" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-36" value="加码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-37" value="2元" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="604" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-40" value="在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-41" value="轩辕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102.75" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-43" value="的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-45" value="规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="599" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-46" value="操作类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="494" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-47" value="角色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="11.5" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-48" value="渠道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="105.25" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-49" value="活动主体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="214" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-50" value="满减活动（满30-5）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="819" y="83" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-51" value="活动实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="849" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-52" value="拿铁特价19元" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="834" y="123" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-53" value="满减活动（满30-5）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="338" y="340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-54" value="活动实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="368" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-70" value="销售" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-71" value="为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="168" y="170" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-72" value="店铺的商品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="204" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-73" value="创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="317" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-74" value="特价19元" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-75" value="来源是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-76" value="商品活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-77" value="在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="170" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-78" value="轩辕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="104" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-79" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;一个&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-80" value="拿铁特价19元" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="834" y="170" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-81" value="自建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="499" y="83" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-82" value="招商" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="499" y="123" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-83" value="BD直上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="494" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-84" value="的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554" y="83" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-85" value="的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554" y="123" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-86" value="的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554" y="170" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-87" value="来源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="498" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-91" value="用例一：创建活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4" y="10" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-92" value="用例二：加码补贴" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9" y="260" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-93" value="平台运营" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-94" value="为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="168" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-95" value="店铺" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-96" value="加码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-97" value="最多5元，1:1出资" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="564" y="380" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-98" value="在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-99" value="轩辕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102.75" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-100" value="的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FP3RvZ0B4tx-28YotpM8-101" value="满减活动（满30-5）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="338" y="380" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
