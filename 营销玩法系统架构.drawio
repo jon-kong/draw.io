@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T13:29:49.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="oON8fbKzbMPI0GNBAvNe" version="14.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-06T13:35:00.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="6FiJdga46zqijhu-Cquo" version="14.8.0" type="github" pages="4">
   <diagram id="ReCLWSTY9DPHoClR30AF" name="产品用例">
     <mxGraphModel dx="2078" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -696,6 +696,38 @@
             <Array as="points">
               <mxPoint x="440" y="485" />
               <mxPoint x="440" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-42" value="play_doraemon_play_group_mapping&#xa;玩法组合表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="69" y="900" width="271" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-43" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="40" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-44" value="play_instance_id（玩法实例ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="66" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-48" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="92" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-46" value="relation_id（关联关系ID，如虚拟活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="118" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-45" value="biz_id（业务id，如标品ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="144" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-47" value="biz_type（业务类型 1配送费 2餐盒费）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="170" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-49" value="status（状态 1生效 0作废）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-42">
+          <mxGeometry y="196" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-44" target="vTZqKFH6CiMXEJJE02cr-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="979" />
+              <mxPoint x="10" y="263" />
             </Array>
           </mxGeometry>
         </mxCell>
