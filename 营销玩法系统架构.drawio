@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T12:42:29.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="2Hmzl1S-XSHShG3lNwtt" version="14.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-06T13:29:49.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="oON8fbKzbMPI0GNBAvNe" version="14.8.0" type="github" pages="4">
   <diagram id="ReCLWSTY9DPHoClR30AF" name="产品用例">
     <mxGraphModel dx="2078" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,7 +461,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jb3b1XXr3ejwB5ctOeoc" name="数据模型">
+  <diagram id="jb3b1XXr3ejwB5ctOeoc" name="数据模型（现状）">
     <mxGraphModel dx="1251" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vTZqKFH6CiMXEJJE02cr-0" />
@@ -469,145 +469,235 @@
         <mxCell id="vTZqKFH6CiMXEJJE02cr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="vTZqKFH6CiMXEJJE02cr-14" target="vTZqKFH6CiMXEJJE02cr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-4" value="tb_st_strategy&#xa;任务规则-主表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
-          <mxGeometry x="69" y="30" width="310" height="222" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-4" value="play_doraemon_play_rule&#xa;玩法规则表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="69" y="20" width="221" height="144" as="geometry" />
         </mxCell>
         <mxCell id="vTZqKFH6CiMXEJJE02cr-5" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="40" width="310" height="26" as="geometry" />
+          <mxGeometry y="40" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-6" value="strategy_name（任务策略名称）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="66" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-6" value="category（玩法类型）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
+          <mxGeometry y="66" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-7" value="effective_start_time（开始生效时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="92" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-7" value="rules（玩法规则）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
+          <mxGeometry y="92" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-8" value="shop_business_type（店铺业务类型（位存储)）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="118" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-8" value="budget_id（预算ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
+          <mxGeometry y="118" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-9" value="guide_id（新店提单攻略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="144" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-10" value="is_default（是否兜底策略）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="170" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-11" value="shop_tag（店铺标签（字符串逗号分隔））" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-4">
-          <mxGeometry y="196" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-12" value="tb_st_strategy_task_package&#xa;任务模板-任务包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
-          <mxGeometry x="69" y="290" width="310" height="196" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-12" value="play_doraemon_play_instance&#xa;玩法实例表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="69" y="210" width="221" height="196" as="geometry" />
         </mxCell>
         <mxCell id="vTZqKFH6CiMXEJJE02cr-13" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="40" width="310" height="26" as="geometry" />
+          <mxGeometry y="40" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-14" value="strategy_id（任务策略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="66" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-7" value="category（玩法类型）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
+          <mxGeometry y="66" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-15" value="package_name（任务包名称）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="92" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-14" value="play_rule_id（玩法规则ID,可以为空）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
+          <mxGeometry y="92" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-16" value="package_type（类型 0营业必备 1进阶任务 2获客指引）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#F2A40B;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="118" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-15" value="relation_id（底层模板ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
+          <mxGeometry y="118" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-17" value="reward_method（奖励方式 1完成所有任务 2完成单个）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="144" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-17" value="rules（玩法规则）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
+          <mxGeometry y="144" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-18" value="task_pass_line（任务达标线）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
-          <mxGeometry y="170" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-18" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-12">
+          <mxGeometry y="170" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-19" value="tb_st_strategy_subtask&#xa;任务模板-子任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
-          <mxGeometry x="69" y="540" width="310" height="170" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-19" value="play_doraemon_play_apply&#xa;玩法报名表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="69" y="460" width="221" height="404" as="geometry" />
         </mxCell>
         <mxCell id="vTZqKFH6CiMXEJJE02cr-20" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
-          <mxGeometry y="40" width="310" height="26" as="geometry" />
+          <mxGeometry y="40" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-21" value="strategy_id（任务策略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
-          <mxGeometry y="66" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-30" value="global_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="66" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-22" value="strategy_task_package_id（规则任务包ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
-          <mxGeometry y="92" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-21" value="category（玩法类型）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="92" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-23" value="subtask_type（任务类型 1 订单量 2 商品售价）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
-          <mxGeometry y="118" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-8" value="play_instance_id（玩法实例ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="118" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-24" value="subtask_info（任务信息）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
-          <mxGeometry y="144" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-22" value="relation_id（底层模板ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="144" width="221" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="vTZqKFH6CiMXEJJE02cr-22" target="vTZqKFH6CiMXEJJE02cr-13">
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-23" value="rules（玩法规则（可以为空））" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="170" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-24" value="p_id（底层参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="196" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-0" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="222" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-1" value="food_id（菜品ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="248" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-2" value="sku_id（菜品SKUID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="274" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-3" value="campaign_id（招商主活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="300" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-4" value="sub_campaign_id（招商子活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="326" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-5" value="b_id（上游业务单ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="352" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-6" value="related_p_id（关联原活动参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-19">
+          <mxGeometry y="378" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-8" target="vTZqKFH6CiMXEJJE02cr-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="645" />
-              <mxPoint x="10" y="343" />
+              <mxPoint x="69" y="590" />
+              <mxPoint x="10" y="590" />
+              <mxPoint x="10" y="263" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="vTZqKFH6CiMXEJJE02cr-43" target="vTZqKFH6CiMXEJJE02cr-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="vTZqKFH6CiMXEJJE02cr-42" target="vTZqKFH6CiMXEJJE02cr-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="125" />
+              <mxPoint x="440" y="263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F2A40B;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="vTZqKFH6CiMXEJJE02cr-33" target="vTZqKFH6CiMXEJJE02cr-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F2A40B;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-28" target="90zU4IkhWUTH-cgSkzR9-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="290" y="513" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-28" value="tb_st_shop_subtask&#xa;店铺子任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
-          <mxGeometry x="500" y="618" width="310" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-29" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="40" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-30" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="66" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-31" value="strategy_id（任务策略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="92" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-32" value="strategy_task_package_id（规则任务包ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="118" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-33" value="strategy_subtask_id（规则子任务ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="144" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-34" value="is_done（任务状态 1已完成 0进行中 -1待开始）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#F2A40B;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="170" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-35" value="reward_status（奖励领取状态 1已领取 0未领取）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="196" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-36" value="reward_receive_time（奖励领取时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="222" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-37" value="begin_time（任务开始时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="248" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-38" value="end_time（任务结束时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-28">
-          <mxGeometry y="274" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-39" value="tb_st_shop_task&#xa;店铺任务包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
-          <mxGeometry x="500" y="290" width="310" height="274" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-39" value="play_doraemon_subsidy_item&#xa;补贴明细表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="500" y="20" width="220" height="326" as="geometry" />
         </mxCell>
         <mxCell id="vTZqKFH6CiMXEJJE02cr-40" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="40" width="310" height="26" as="geometry" />
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-41" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="66" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-41" value="subsidy_id（补贴明细ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="66" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-42" value="strategy_id（任务策略ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="92" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-42" value="play_instance_id（玩法实例ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="92" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-43" value="strategy_task_package_id（规则任务包ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="118" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-43" value="participation_id（参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="118" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-44" value="is_done（任务状态 1已完成 0进行中 -1待开始）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#F2A40B;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="144" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-44" value="activity_id（活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="144" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-45" value="reward_status（奖励领取状态 1已领取 0未领取）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="170" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-10" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="170" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-46" value="reward_receive_time（奖励领取时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="196" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-11" value="sku_id（菜品ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="196" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-47" value="begin_time（任务开始时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="222" width="310" height="26" as="geometry" />
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-45" value="amounts（补贴各档位金额）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="222" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vTZqKFH6CiMXEJJE02cr-48" value="end_time（任务结束时间）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
-          <mxGeometry y="248" width="310" height="26" as="geometry" />
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-12" value="budget_id（预算ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="248" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vTZqKFH6CiMXEJJE02cr-46" value="channel（补贴渠道：冲单，招商，BD）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="274" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-13" value="source（补贴来源：平台，代理）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-39">
+          <mxGeometry y="300" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-14" value="play_doraemon_play_raise&#xa;玩法加码表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="500" y="590" width="221" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-15" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="40" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-16" value="category（玩法类型）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="66" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-17" value="play_instance_id（玩法实例ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="92" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-18" value="relation_id（底层模板ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="118" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-19" value="rules（加码规则）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="144" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-20" value="p_id（底层参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="170" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-21" value="shop_id（店铺ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="196" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-22" value="food_id（菜品ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="222" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-23" value="sku_id（菜品SKUID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="248" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-24" value="campaign_id（招商主活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="274" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-25" value="sub_campaign_id（招商子活动ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="300" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-26" value="b_id（上游业务单ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="326" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-28" value="origin_apoly_global_id（原报名ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="352" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-27" value="origin_p_id（原参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="378" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-29" value="status（加码状态：1正常2无效）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-14">
+          <mxGeometry y="404" width="221" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-27" target="vTZqKFH6CiMXEJJE02cr-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="907" />
+              <mxPoint x="360" y="669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-17" target="vTZqKFH6CiMXEJJE02cr-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="695" />
+              <mxPoint x="440" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-34" value="play_doraemon_play_instance_snapshot&#xa;玩法熔断记录表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="vTZqKFH6CiMXEJJE02cr-1">
+          <mxGeometry x="500" y="380" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-35" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-34">
+          <mxGeometry y="40" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-36" value="category（玩法类型）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-34">
+          <mxGeometry y="66" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-37" value="play_instance_id（玩法实例ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-34">
+          <mxGeometry y="92" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-38" value="participation_id（底层参与关系ID）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-34">
+          <mxGeometry y="118" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-39" value="circuit_subsidy_details（熔断前补贴信息）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="90zU4IkhWUTH-cgSkzR9-34">
+          <mxGeometry y="144" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90zU4IkhWUTH-cgSkzR9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vTZqKFH6CiMXEJJE02cr-1" source="90zU4IkhWUTH-cgSkzR9-37" target="vTZqKFH6CiMXEJJE02cr-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="485" />
+              <mxPoint x="440" y="263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
