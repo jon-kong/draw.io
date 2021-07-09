@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T13:53:24.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kcc7e93oZKG8TNymrUaM" version="14.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-09T03:34:13.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Ov1bcHwDhDLz2Lcs42wl" version="14.8.0" type="github" pages="5">
   <diagram id="ReCLWSTY9DPHoClR30AF" name="产品用例">
     <mxGraphModel dx="2078" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,8 +1019,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="p6SfolWA34ndPBAUF2ng" name="模型验证（多渠道）">
-    <mxGraphModel dx="1251" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="p6SfolWA34ndPBAUF2ng" name="模型验证">
+    <mxGraphModel dx="1251" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IQOT4jcwxDQELtqCL89w-0" />
         <mxCell id="IQOT4jcwxDQELtqCL89w-1" parent="IQOT4jcwxDQELtqCL89w-0" />
@@ -1117,14 +1117,77 @@
         <mxCell id="IQOT4jcwxDQELtqCL89w-34" value="1.活动价必须为固定值&lt;br style=&quot;font-size: 12px&quot;&gt;2.每单限购不能为空&lt;br&gt;3.日期不能为空&lt;br&gt;4.每日库存不能为空&lt;br&gt;5.生效时段不能为空&lt;br&gt;6.活动名称不能为空" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#CC6600;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
           <mxGeometry x="518" y="400" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="IQOT4jcwxDQELtqCL89w-35" value="1.创建活动模板&lt;br&gt;2.创建参与关系&lt;br&gt;3.创建库存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
-          <mxGeometry x="689" y="135" width="100" height="50" as="geometry" />
+        <mxCell id="IQOT4jcwxDQELtqCL89w-35" value="1.创建菜活动模板&lt;br&gt;2.创建菜参与关系&lt;br&gt;3.创建菜库存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="135" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IQOT4jcwxDQELtqCL89w-36" value="1.创建活动模板&lt;br&gt;2.创建参与关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
-          <mxGeometry x="689" y="290" width="100" height="30" as="geometry" />
+        <mxCell id="IQOT4jcwxDQELtqCL89w-36" value="1.创建菜活动模板&lt;br&gt;2.创建菜参与关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="290" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IQOT4jcwxDQELtqCL89w-38" value="1.创建活动模板&lt;br&gt;2.创建参与关系&lt;br&gt;3.创建库存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
-          <mxGeometry x="689" y="420" width="100" height="50" as="geometry" />
+        <mxCell id="IQOT4jcwxDQELtqCL89w-38" value="1.创建菜活动模板&lt;br&gt;2.创建菜参与关系&lt;br&gt;3.创建库存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-39" value="单品特价（反圈特价菜）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=middle;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="17" y="590" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-42" value="商品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="162" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-45" value="单店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="252" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-48" value="招商" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="332" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-51" value="预算ID&lt;br style=&quot;font-size: 12px&quot;&gt;平台补贴&lt;br style=&quot;font-size: 12px&quot;&gt;每单限购&lt;br&gt;人群&lt;br&gt;渠道&lt;br&gt;日期&lt;br&gt;生效时段&lt;br&gt;原活动ID&lt;br&gt;新客额外优惠" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#3399FF;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="408" y="545" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-55" value="1.预算ID不能而空&lt;br style=&quot;font-size: 12px&quot;&gt;2.每单限购不能为空&lt;br style=&quot;font-size: 12px&quot;&gt;3.平台补贴2位小数&lt;br style=&quot;font-size: 12px&quot;&gt;4.新客额外优惠不能为空" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#CC6600;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="518" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-56" value="1.创建菜活动模板&lt;br&gt;2.创建菜参与关系&lt;br&gt;3.创建菜库存&lt;br&gt;4.创建配送费活动模板&lt;br&gt;5.创建配送费参与关系&lt;br&gt;6.创建餐盒费活动模板&lt;br&gt;7.创建餐盒费参与关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="560" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-57" value="百亿补贴（反圈）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=middle;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="17" y="735" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-58" value="店铺" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="162" y="745" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-59" value="单店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="252" y="745" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-60" value="招商" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="332" y="745" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-61" value="预算ID&lt;br&gt;日期&lt;br&gt;原活动ID" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#3399FF;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="408" y="730" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-62" value="1.预算ID不能而空&lt;br style=&quot;font-size: 12px&quot;&gt;2.原活动不能为空&lt;br style=&quot;font-size: 12px&quot;&gt;3.日期不能为空" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#CC6600;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="518" y="730" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-63" value="1.活动加码&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="745" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-64" value="百亿补贴（正招）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=middle;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="17" y="855" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-65" value="店铺" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="162" y="865" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-66" value="单店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="252" y="865" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-67" value="招商" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="332" y="865" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-68" value="预算ID&lt;br&gt;加码预算ID&lt;br&gt;活动类型&lt;br&gt;城代出资比&lt;br&gt;满减活动规则&lt;br&gt;活动日期&lt;br&gt;时间段&lt;br&gt;循环周期&lt;br&gt;同享规则" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#3399FF;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="408" y="810" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-69" value="1.预算ID不能而空&lt;br style=&quot;font-size: 12px&quot;&gt;2.原活动不能为空&lt;br&gt;3.出资比不能为空&lt;br&gt;4.满减规则不能为空&lt;br style=&quot;font-size: 12px&quot;&gt;5.日期不能为空&lt;br&gt;6.时间段不能为空" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#CC6600;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="518" y="830" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IQOT4jcwxDQELtqCL89w-70" value="1.创建店活动模板&lt;br&gt;2.创建店参与关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="IQOT4jcwxDQELtqCL89w-1">
+          <mxGeometry x="689" y="860" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
