@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T09:22:47.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="eK2GEWSgBgtyJwGROsYT" version="16.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-10T09:23:52.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="WbujVTgeQMeb0_7O0F4a" version="16.2.4" type="github" pages="2">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="1554" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -529,6 +529,9 @@
         </mxCell>
         <mxCell id="oVL9wTPRJmgqZm_gUId0-3" value="召回&lt;br&gt;购物车" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="GDA_V8VLZ2f_i7nTFjqM-1">
           <mxGeometry x="972.83" y="95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oVL9wTPRJmgqZm_gUId0-4" value="红包召回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="GDA_V8VLZ2f_i7nTFjqM-1">
+          <mxGeometry x="1010" y="520" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
