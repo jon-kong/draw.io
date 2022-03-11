@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T08:45:38.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="3aoyPAdHDzsxNDU34IjX" version="16.2.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-11T08:47:07.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="ymFukWgJDBfBlPFz34wM" version="16.2.4" type="github" pages="4">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
-    <mxGraphModel dx="1823" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,6 +217,9 @@
         </mxCell>
         <mxCell id="rINgZE13Y8F9pPWIDbY2-38" value="老系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-615" y="556" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rINgZE13Y8F9pPWIDbY2-39" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-825" width="1355" height="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
