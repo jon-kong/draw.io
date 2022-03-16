@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T09:24:05.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="BALjrZ-l-KClc_n7xF4r" version="16.2.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-16T02:02:17.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="c3kmtwsALZl6ilJk_XAG" version="16.2.4" type="github" pages="4">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2178" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="UJrdf9Byrm_n-mhCFxMZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="UJrdf9Byrm_n-mhCFxMZ-14" target="UJrdf9Byrm_n-mhCFxMZ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UJrdf9Byrm_n-mhCFxMZ-14" value="alsc-mp-consult&lt;br&gt;集团营销平台" style="rounded=0;fontSize=10;labelBackgroundColor=none;html=1;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="UJrdf9Byrm_n-mhCFxMZ-14" value="alsc-mp-consult&lt;br&gt;本地营销导购网关" style="rounded=0;fontSize=10;labelBackgroundColor=none;html=1;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="305" y="400" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJrdf9Byrm_n-mhCFxMZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="UJrdf9Byrm_n-mhCFxMZ-15" target="UJrdf9Byrm_n-mhCFxMZ-16">
@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VR7sTqNXrip6om7bF9O2" name="C端导购链路">
-    <mxGraphModel dx="2365" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oYzFO0lUcrVqqyPVe-OJ-0" />
         <mxCell id="oYzFO0lUcrVqqyPVe-OJ-1" parent="oYzFO0lUcrVqqyPVe-OJ-0" />
