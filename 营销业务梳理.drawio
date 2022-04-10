@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T11:12:38.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="WS3U-AlZy31100-z_jhZ" version="17.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-10T12:47:04.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="l1ab87RZVnUw_p9l8Ibu" version="17.4.0" type="github" pages="6">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
-    <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l6Qrue0ExfOeNEP6JtZa" name="C端咨询链路">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GDA_V8VLZ2f_i7nTFjqM-0" />
         <mxCell id="GDA_V8VLZ2f_i7nTFjqM-1" parent="GDA_V8VLZ2f_i7nTFjqM-0" />
@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VR7sTqNXrip6om7bF9O2" name="C端导购链路">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oYzFO0lUcrVqqyPVe-OJ-0" />
         <mxCell id="oYzFO0lUcrVqqyPVe-OJ-1" parent="oYzFO0lUcrVqqyPVe-OJ-0" />
@@ -974,7 +974,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_xmTyX6o_oHEDGW55SG-" name="C端交易链路">
-    <mxGraphModel dx="119" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="119" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yrIEg9ahuBzeUlRW6g57-0" />
         <mxCell id="yrIEg9ahuBzeUlRW6g57-1" parent="yrIEg9ahuBzeUlRW6g57-0" />
@@ -1158,7 +1158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g6d1JkjA2L1xZaikqrvo" name="营销1.0">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1237,6 +1237,14 @@
         <mxCell id="1RY-rsVjPMy4yLgwOzDN-13" value="marketing.calculate_center&lt;br&gt;营销算价服务" style="rounded=0;fontSize=10;labelBackgroundColor=none;html=1;whiteSpace=wrap;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="70" y="330" width="970" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5Iw9uNWOluVkrBpVBFrQ" name="营销2.0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
