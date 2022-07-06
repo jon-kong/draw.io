@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T02:24:55.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EvkFesYXy55WRNCMPkbu" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-06T02:28:26.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="uUJ6meKgpcmEpK0Skirn" version="20.0.4" type="github" pages="7">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2381" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1298,7 +1298,7 @@
         <mxCell id="kBqAPJCY9A28JWlATAr0-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;play-doraemon-common-integration&lt;br&gt;基础服务集成层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="490" y="524.5" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyvevz4mLp2Rf8xBqW7r-1" value="下游服务提供方" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+        <mxCell id="cyvevz4mLp2Rf8xBqW7r-1" value="下游服务提供方" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="410" y="820" width="420" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cyvevz4mLp2Rf8xBqW7r-2" value="玩法域" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
@@ -1329,7 +1329,7 @@
           <mxGeometry x="230" y="140" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyvevz4mLp2Rf8xBqW7r-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;play-doraemon-near-client&lt;br&gt;对外近端包&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="730" y="60" width="180" height="80" as="geometry" />
+          <mxGeometry x="730" y="70" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cyvevz4mLp2Rf8xBqW7r-13" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;play-doraemon-biz-impl&lt;br&gt;业务实现层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="230" y="272" width="670" height="40" as="geometry" />
@@ -1390,6 +1390,30 @@
             <mxPoint x="330.34" y="312" as="sourcePoint" />
             <mxPoint x="329.50000000000006" y="405" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-4" value="play.valyria" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="436" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-5" value="play.dracrays" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="531" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-6" value="play.search" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="626" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-7" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="724" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-8" value="alsc.mp" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-9" value="shop.core" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-10" value="commodity" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iy2XwxpDmk-SNE0lm6-u-11" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="850" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
