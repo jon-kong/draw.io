@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:53:32.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4PqIsIqlUpWYj_cld_XU" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:55:01.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KvJYY64dfKsZwg2qMG-b" version="20.0.4" type="github" pages="9">
   <diagram id="vAVq_O38dAI0uEcNq4Pr" name="产品用例">
     <mxGraphModel dx="2381" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2600,49 +2600,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;行业玩法&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b46504;fillColor=#fad7ac;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-736" y="407.5" width="70" height="20" as="geometry" />
+          <mxGeometry x="731" y="808" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-2" value="弹外底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-816" y="407.5" width="70" height="20" as="geometry" />
+          <mxGeometry x="731" y="745" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-3" value="平台玩法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#000000;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-656" y="407.5" width="70" height="20" as="geometry" />
+          <mxGeometry x="731" y="870" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-4" value="UMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-576" y="407.5" width="50" height="20" as="geometry" />
+          <mxGeometry x="731" y="922" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-5" value="图例：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-827" y="372.5" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;行业玩法&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b46504;fillColor=#fad7ac;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-725" y="977.5" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-7" value="弹外底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-805" y="977.5" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-8" value="平台玩法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#000000;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-645" y="977.5" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-9" value="UMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="-565" y="977.5" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-10" value="图例：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-816" y="942.5" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;行业玩法&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b46504;fillColor=#fad7ac;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="101" y="415" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-12" value="弹外底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="21" y="415" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-13" value="平台玩法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#000000;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="181" y="415" width="70" height="20" as="geometry" />
+          <mxGeometry x="720" y="710" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O3K6KchAiPz-8nh1Lxw5-14" value="平台权益" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#ae4132;fillColor=#fad9d5;fontSize=12;spacing=-1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="415" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="O3K6KchAiPz-8nh1Lxw5-15" value="图例：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="380" width="70" height="30" as="geometry" />
+          <mxGeometry x="731" y="970" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
