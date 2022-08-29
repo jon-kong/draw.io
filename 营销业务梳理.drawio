@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T06:22:45.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_cvdaCLGS5LSs1lgSZqo" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-29T06:23:52.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eNB-SRA5ovibc8SkioHj" version="20.0.4" type="github" pages="7">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2381" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
         <mxCell id="rINgZE13Y8F9pPWIDbY2-3" value="招商中心" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="360" y="35" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rINgZE13Y8F9pPWIDbY2-4" value="CRM渠道（老链路）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="rINgZE13Y8F9pPWIDbY2-4" value="CRM（老链路）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-790" y="35" width="139" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rINgZE13Y8F9pPWIDbY2-5" value="开放平台" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;" parent="1" vertex="1">
@@ -224,7 +224,7 @@
         <mxCell id="rINgZE13Y8F9pPWIDbY2-38" value="老系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-615" y="556" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EC31qjbgZtg3Hoo4m08D-1" value="CRM特价菜" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="EC31qjbgZtg3Hoo4m08D-1" value="CRM特价菜（新）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="35" width="139" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EC31qjbgZtg3Hoo4m08D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="EC31qjbgZtg3Hoo4m08D-2" target="UJrdf9Byrm_n-mhCFxMZ-2">
