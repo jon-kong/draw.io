@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T10:15:44.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="c6nG0aFlg_USzyTqRrBb" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-08-29T10:15:53.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HWtfIWkx1d3nXHlfxU2p" version="20.0.4" type="github" pages="8">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2381" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1996,7 +1996,7 @@
           <mxGeometry x="-100" y="-785" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G6AKJwvUBB0NuFLEvpar-24" value="marketing.xy_api&lt;br&gt;轩辕营销API层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-785" width="130" height="40" as="geometry" />
+          <mxGeometry x="390" y="-785" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G6AKJwvUBB0NuFLEvpar-25" value="marketing.coupon_xy_api&lt;br&gt;轩辕权益营销API层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="168" y="-785" width="182" height="40" as="geometry" />
