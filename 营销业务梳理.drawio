@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T03:17:33.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vrH_Aou1A7-je5zE7IK3" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-30T03:18:05.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="IGSK44lkEpXZ-Svl3Wfs" version="20.0.4" type="github" pages="9">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2381" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3119,6 +3119,12 @@
         </mxCell>
         <mxCell id="sZmPgFtz0iR2lSRC-1MV-37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1162" y="-952" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sZmPgFtz0iR2lSRC-1MV-38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1128" y="-344" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sZmPgFtz0iR2lSRC-1MV-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1128" y="-293" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
