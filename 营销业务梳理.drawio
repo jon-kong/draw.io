@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:54:04.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cCKIhIB6Y7poIBsevk2V" version="20.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:56:58.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vOv_tkNLEDDRHwLII468" version="20.2.7" type="github" pages="10">
   <diagram id="sKE-AYDgoHeljf7fkCj9" name="B端活动供给链路">
     <mxGraphModel dx="2621" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3144,7 +3144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="产品链路（分模块）" id="jAwT2Gkcg6VLA48l-NNE">
-    <mxGraphModel dx="7748" dy="7147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6133" dy="6249" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UsMq4jtNnt99J6xdpcmt-0" />
         <mxCell id="UsMq4jtNnt99J6xdpcmt-1" parent="UsMq4jtNnt99J6xdpcmt-0" />
@@ -4143,6 +4143,18 @@
         </mxCell>
         <mxCell id="VhtVH3KrIfaUY7LZluSa-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="UsMq4jtNnt99J6xdpcmt-1">
           <mxGeometry x="558" y="-3038.36" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VhtVH3KrIfaUY7LZluSa-31" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="UsMq4jtNnt99J6xdpcmt-1">
+          <mxGeometry x="-1101.87" y="-3492" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VhtVH3KrIfaUY7LZluSa-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="UsMq4jtNnt99J6xdpcmt-1">
+          <mxGeometry x="-656.4399999999998" y="-3491" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VhtVH3KrIfaUY7LZluSa-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="UsMq4jtNnt99J6xdpcmt-1">
+          <mxGeometry x="459" y="-3378" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VhtVH3KrIfaUY7LZluSa-34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=1;fontSize=14;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="UsMq4jtNnt99J6xdpcmt-1">
+          <mxGeometry x="153" y="-3372" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
