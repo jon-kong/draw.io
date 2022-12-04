@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T09:44:56.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cvK9kQDlQyOtTtt98s01" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-04T09:45:16.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QZVWYdQ9E0gDW1Rg-nw9" version="20.5.1" type="github" pages="3">
   <diagram id="5oMd8jQUyTVnU2nmaPUR" name="业务流程">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="370" y="107" width="110" height="353" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="210" y="107" width="110" height="263" as="geometry" />
+          <mxGeometry x="210" y="107" width="110" height="303" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="85" y="107" width="110" height="163" as="geometry" />
@@ -49,7 +49,7 @@
         <mxCell id="nKAvX6BTVIMCWCO14RXr-15" value="算法推荐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="220" y="268" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-16" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-16" value="人工导入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="318" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-17" value="B补强度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="YiAKJyvLT8dnD6AP64St-1" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="380" y="418" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YiAKJyvLT8dnD6AP64St-2" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="368" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
