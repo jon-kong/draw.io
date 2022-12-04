@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T12:41:49.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uMM4nQ1h8-pf1fepRpt-" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-04T12:42:47.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="f1HRJ2z5myPhC25DfMM8" version="20.5.1" type="github" pages="4">
   <diagram id="5oMd8jQUyTVnU2nmaPUR" name="业务流程">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NuhbEiyONgqpR6ZVbiyx" name="产品流程">
-    <mxGraphModel dx="2703" dy="1754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2102" dy="1364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,6 +361,9 @@
         </mxCell>
         <mxCell id="Ozft22rvfRhqB3iAgFWw-9" value="圈商" style="whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="1">
           <mxGeometry x="881.2499999999999" y="155" width="99.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozft22rvfRhqB3iAgFWw-13" value="*红色为本次变更部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="31" y="999" width="187" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
