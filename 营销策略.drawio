@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T09:45:16.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QZVWYdQ9E0gDW1Rg-nw9" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-04T09:46:21.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XEKt-ndK-YIAlPGDCGR2" version="20.5.1" type="github" pages="3">
   <diagram id="5oMd8jQUyTVnU2nmaPUR" name="业务流程">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="689" y="107" width="110" height="113" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="107" width="110" height="153" as="geometry" />
+          <mxGeometry x="545" y="107" width="110" height="203" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="370" y="107" width="110" height="353" as="geometry" />
@@ -67,11 +67,11 @@
         <mxCell id="nKAvX6BTVIMCWCO14RXr-21" value="策略排序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="556" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-22" value="实时调控" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-22" value="兜底策略" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="556" y="168" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-23" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="556" y="218" width="90" height="30" as="geometry" />
+          <mxGeometry x="556" y="268" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-25" value="时间周期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="380" y="318" width="90" height="30" as="geometry" />
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="YiAKJyvLT8dnD6AP64St-2" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="368" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YiAKJyvLT8dnD6AP64St-3" value="实时调控" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="556" y="218" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
