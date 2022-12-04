@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T09:38:39.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CGwo7NIXj_4YAeWEhOB_" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-04T09:44:56.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cvK9kQDlQyOtTtt98s01" version="20.5.1" type="github" pages="3">
   <diagram id="5oMd8jQUyTVnU2nmaPUR" name="业务流程">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nKAvX6BTVIMCWCO14RXr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#56517e;fillColor=#C9E0E2;" vertex="1" parent="1">
-          <mxGeometry x="60" y="48" width="760" height="370" as="geometry" />
+          <mxGeometry x="60" y="48" width="760" height="422" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="689" y="107" width="110" height="113" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="545" y="107" width="110" height="153" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="370" y="107" width="110" height="301" as="geometry" />
+          <mxGeometry x="370" y="107" width="110" height="353" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="210" y="107" width="110" height="263" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="85" y="107" width="110" height="163" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-7" value="营销B补策略调控" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="10" y="48" width="40" height="370" as="geometry" />
+          <mxGeometry x="10" y="48" width="40" height="422" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-8" value="圈商配置" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=23.73;notch=21.27;fontSize=14;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="210" y="58" width="120" height="40" as="geometry" />
@@ -40,58 +40,58 @@
         <mxCell id="nKAvX6BTVIMCWCO14RXr-12" value="城市" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="220" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-13" value="业务线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-13" value="业务线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="220" y="168" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-14" value="Bu Flag" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-14" value="量子群组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="218" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-15" value="算法推荐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="220" y="268" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-16" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-16" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="318" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-17" value="B补力度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-17" value="B补强度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="380" y="118" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-18" value="目标类型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="380" y="168" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-19" value="商户下限" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-19" value="商户出资" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="380" y="218" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-20" value="平台上限" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-20" value="平台出资" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="380" y="268" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-21" value="策略排序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="556" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-22" value="策略变更" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-22" value="实时调控" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="556" y="168" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-23" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="556" y="218" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-25" value="时间周期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-25" value="时间周期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="380" y="318" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-26" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-26" value="算法推荐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="380" y="368" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-27" value="工具选择" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=23.73;notch=21.27;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="80" y="58" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-28" value="爆红包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-28" value="爆红包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="95" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-29" value="超会BD直上" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-29" value="超会BD直上" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="95" y="167.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-30" value="策略效果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-30" value="策略效果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="700" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-31" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-31" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="700" y="168" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKAvX6BTVIMCWCO14RXr-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -106,8 +106,11 @@
         <mxCell id="nKAvX6BTVIMCWCO14RXr-36" value="现有能力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="611" y="10" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nKAvX6BTVIMCWCO14RXr-37" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nKAvX6BTVIMCWCO14RXr-37" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="95" y="218" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YiAKJyvLT8dnD6AP64St-1" value="……" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="418" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
