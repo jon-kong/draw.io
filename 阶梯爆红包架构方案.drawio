@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T09:44:49.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="8Wd_ZHag18MyaPEoOgGI" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-16T14:43:15.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="1DTkNfSgBn2fGdDtP4Va" type="github" pages="5">
   <diagram id="MzBQtq7YiN6zM8jG2YjZ" name="招商报名数据流">
-    <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -870,7 +870,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C83bUFfXfUyZOqNDHq9J" name="BD审批ER图">
-    <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1121,11 +1121,276 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_U6ACnUaoMfMZqGIypEF" name="第 5 页">
-    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="_U6ACnUaoMfMZqGIypEF" name="BD直上数据流">
+    <mxGraphModel dx="1562" dy="-301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-3" target="FslqRWNwMzjp_x0dFh8v-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-2" value="创建活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-1">
+          <mxGeometry x="-0.0615" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-3" value="BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1346" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-4" value="D1：BD活动模板&lt;br&gt;tb_bd_play_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1491" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-9" target="FslqRWNwMzjp_x0dFh8v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-6" value="活动信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-5">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-9" target="FslqRWNwMzjp_x0dFh8v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-8" value="活动信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-7">
+          <mxGeometry x="-0.1429" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-9" value="1&lt;br&gt;活动创建" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1341" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-12" target="FslqRWNwMzjp_x0dFh8v-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1371" />
+              <mxPoint x="540" y="1580" />
+              <mxPoint x="70" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-39" value="活动信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-5">
+          <mxGeometry x="0.0538" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-12" value="活动信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1346" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-24" value="L1 BD上活动流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-27" target="FslqRWNwMzjp_x0dFh8v-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-26" value="选店保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-25">
+          <mxGeometry x="-0.0615" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-27" value="BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1635" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-28" value="D3：子流水&lt;br&gt;tb_bd_workflow_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1780" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-33" target="FslqRWNwMzjp_x0dFh8v-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-30" value="单店铺流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-29">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="32" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-33" value="2&lt;br&gt;店铺报名" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-33" target="FslqRWNwMzjp_x0dFh8v-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-35" value="报名审核" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-34">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint x="25" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-40" target="FslqRWNwMzjp_x0dFh8v-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-38" value="审批任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-37">
+          <mxGeometry x="-0.0133" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-39" value="开启工作流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-40" target="FslqRWNwMzjp_x0dFh8v-46">
+          <mxGeometry x="0.0526" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="880" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAmI7UZngoBFPgggKqjL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-40" target="FslqRWNwMzjp_x0dFh8v-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="1710" />
+              <mxPoint x="725" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-4" value="审批节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wAmI7UZngoBFPgggKqjL-4">
+          <mxGeometry x="0.6444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-40" value="3&lt;br&gt;审批管理" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-41" value="D4：审批任务&lt;br&gt;tb_bd_general_task" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1780" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-42" value="D5：bpms任务节点信息&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;tb_bpms_executor_mapping&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="632.5" y="1780" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-32" target="jYy8YAAYdmHGfDKpWLE0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="1660" />
+              <mxPoint x="1180" y="1870" />
+              <mxPoint x="70" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-30" value="审批任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-45">
+          <mxGeometry x="0.0662" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-46" target="jYy8YAAYdmHGfDKpWLE0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-31" value="审批任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-2">
+          <mxGeometry x="-0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-46" target="jYy8YAAYdmHGfDKpWLE0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FslqRWNwMzjp_x0dFh8v-46" value="4&lt;br&gt;BPMS" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wAmI7UZngoBFPgggKqjL-1" value="D2：主流水&lt;br&gt;tb_bd_workflow_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1780" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wAmI7UZngoBFPgggKqjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wAmI7UZngoBFPgggKqjL-1" source="FslqRWNwMzjp_x0dFh8v-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127.5" y="1690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAmI7UZngoBFPgggKqjL-3" value="聚合流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wAmI7UZngoBFPgggKqjL-2">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="-43" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-1" value="D6：BPMS工作流任务" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1780" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-8" target="jYy8YAAYdmHGfDKpWLE0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-7" value="审批结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-6">
+          <mxGeometry x="-0.0615" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-8" value="BDM/CM" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1905" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-9" value="D3：子流水&lt;br&gt;tb_bd_workflow_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="704" y="2050" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-11" value="单店铺流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-10">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="50" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-12" value="2&lt;br&gt;店铺报名" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="741" y="1900" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="1930" as="sourcePoint" />
+            <mxPoint x="951" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-14" value="报名成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-13">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint x="25" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-20" target="jYy8YAAYdmHGfDKpWLE0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-16" value="审批任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-15">
+          <mxGeometry x="-0.0133" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-20" target="jYy8YAAYdmHGfDKpWLE0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-19" value="审批节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-18">
+          <mxGeometry x="0.6444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-20" target="jYy8YAAYdmHGfDKpWLE0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-35" value="审批完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-34">
+          <mxGeometry x="-0.0778" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-20" value="3&lt;br&gt;审批管理" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1900" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-21" value="D4：审批任务&lt;br&gt;tb_bd_general_task" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2050" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-22" value="D5：bpms任务节点信息&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;tb_bpms_executor_mapping&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2050" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-26" value="D2：主流水&lt;br&gt;tb_bd_workflow_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2050" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531.5" y="1960" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-28" value="聚合流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-27">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint x="-43" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-32" value="任务信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1635" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-36" value="D6：店铺报名单&lt;br&gt;tb_bd_play_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2050" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYy8YAAYdmHGfDKpWLE0-38" value="报名信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1905" width="70" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
