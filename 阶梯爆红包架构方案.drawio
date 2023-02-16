@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T14:45:23.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="ASPCJgiB-U6QSkzFLqZd" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-16T14:46:01.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="l6w2NhRVxxf7zpsd5grx" type="github" pages="5">
   <diagram id="MzBQtq7YiN6zM8jG2YjZ" name="招商报名数据流">
     <mxGraphModel dx="2389" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -865,6 +865,12 @@
         </mxCell>
         <mxCell id="VtkTA90ZBydEmoFCBoZp-9" value="……" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="571.5" y="1190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2pxT3qOJou3P44A5Z3TK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="2pxT3qOJou3P44A5Z3TK-1" target="WcMPymLkor3JZS4rtrYb-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pxT3qOJou3P44A5Z3TK-1" value="业务单信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="861" y="900" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
