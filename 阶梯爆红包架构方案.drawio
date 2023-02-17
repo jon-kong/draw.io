@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T02:41:27.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="JXTGlPaFdI880gHpxuX3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-17T02:50:10.128Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="fED1hG_p3igSmAcEgJ-Y" type="github" pages="5">
   <diagram id="MzBQtq7YiN6zM8jG2YjZ" name="招商报名数据流">
     <mxGraphModel dx="2389" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1099,11 +1099,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3i3t0kg-8Xn7RWkmdXYb" name="审批任务模型">
-    <mxGraphModel dx="2083" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mc9_EOn9-hlIMmZamWTk-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BdApprovalTaskDomain&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批任务单&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id:&amp;nbsp; 任务唯一ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ parentId：父任务ID&lt;br&gt;+ status:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;审核单状态&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ expireTime：任务过期时间&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ owner_id：任务所属人&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ owner_type：任务所属人类型&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ bizType:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;业务单类型-任务来源方：bdworkflow&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ bizId: Long 业务单ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ remark: 审核备注&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Mc9_EOn9-hlIMmZamWTk-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BdApprovalTaskDomain&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批任务单&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id:&amp;nbsp; 任务唯一ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ parentId：父任务ID&lt;br&gt;+ status:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;审核单状态&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ expireTime：任务过期时间&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ owner_id：任务所属人&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt; background-color: initial;&quot;&gt;+ owner_type：任务所属人类型&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ bizType:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;业务单类型-任务来源方：bdworkflow&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ bizId: Long 业务单ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;+ process_code：BPMS流程code&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ remark: 审核备注&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="325" y="280" width="330" height="250" as="geometry" />
         </mxCell>
         <mxCell id="D7qhJBZByOM_KMI81RBQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;endSize=10;" edge="1" parent="1" source="D7qhJBZByOM_KMI81RBQ-2" target="Mc9_EOn9-hlIMmZamWTk-1">
@@ -1118,17 +1118,6 @@
         </mxCell>
         <mxCell id="D7qhJBZByOM_KMI81RBQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BdApprovalStatusEnum&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批单状态&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ INIT 初始态&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DOING 处理中&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FAILURE 失败&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SUCCESS 成功&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CANCELED 已取消&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ EXPIRE 任务过期&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="10" y="20" width="190" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="D7qhJBZByOM_KMI81RBQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;endSize=10;" edge="1" parent="1" source="D7qhJBZByOM_KMI81RBQ-4" target="IdYQ1IFN7EJnkAiYNY9B-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="83SeDirj-NoRNOrpZ40D-3" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D7qhJBZByOM_KMI81RBQ-10">
-          <mxGeometry x="0.2969" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D7qhJBZByOM_KMI81RBQ-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TaskOutBizTypeEnum&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批业务类型&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WORKFLOW BD营销主流水单据&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SUB_WORKFLOW BD营销子流水单据&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CAMPAIGN_INVITATION 招商邀约单据&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="690" y="600" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="D7qhJBZByOM_KMI81RBQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=10;" edge="1" parent="1" source="D7qhJBZByOM_KMI81RBQ-7" target="Mc9_EOn9-hlIMmZamWTk-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1149,7 +1138,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdYQ1IFN7EJnkAiYNY9B-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BdApprovalNodeDomain&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批任务节点&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id:&amp;nbsp; 节点唯一ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ taskId：所属任务单ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ lastNodeId：前置节点ID&lt;br&gt;+ node_status:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;审核节点状态&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ process_code：BPMS流程code&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;+ process_id：BPMS流程ID&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;+ process_node_id：BPMS流程节点ID&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ ownerType:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;执行人类型-BD、商户&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ ownerId: 执行人ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ outBizType：关联业务类型 BPMS、商户审核&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ outBizId：关联业务单ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ remark: 审核备注&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="IdYQ1IFN7EJnkAiYNY9B-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BdApprovalNodeDomain&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批任务节点&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id:&amp;nbsp; 节点唯一ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ taskId：所属任务单ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ lastNodeId：前置节点ID&lt;br&gt;+ node_status:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;审核节点状态&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;+ process_id：BPMS流程ID&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;+ process_node_id：BPMS流程节点ID&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ ownerType:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;执行人类型-BD、商户&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ ownerId: 执行人ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ outBizType：关联业务类型 BPMS、商户审核&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ outBizId：关联业务单ID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;; font-size: 10.5pt;&quot;&gt;+ remark: 审核备注&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="325" y="650" width="330" height="270" as="geometry" />
         </mxCell>
         <mxCell id="83SeDirj-NoRNOrpZ40D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;endSize=10;" edge="1" parent="1" source="Mc9_EOn9-hlIMmZamWTk-1" target="Mc9_EOn9-hlIMmZamWTk-1">
@@ -1207,10 +1196,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-3" value="BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1346" width="100" height="50" as="geometry" />
+          <mxGeometry x="20" y="1276" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-4" value="D1：BD活动模板&lt;br&gt;tb_bd_play_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="215" y="1491" width="130" height="50" as="geometry" />
+          <mxGeometry x="215" y="1421" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-9" target="FslqRWNwMzjp_x0dFh8v-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1229,14 +1218,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-9" value="1&lt;br&gt;活动创建" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1341" width="60" height="60" as="geometry" />
+          <mxGeometry x="250" y="1271" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-12" target="FslqRWNwMzjp_x0dFh8v-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="1371" />
-              <mxPoint x="540" y="1580" />
-              <mxPoint x="70" y="1580" />
+              <mxPoint x="540" y="1301" />
+              <mxPoint x="540" y="1510" />
+              <mxPoint x="70" y="1510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1246,10 +1235,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-12" value="活动信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1346" width="70" height="50" as="geometry" />
+          <mxGeometry x="450" y="1276" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-24" value="L1 BD上活动流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1270" width="130" height="30" as="geometry" />
+          <mxGeometry x="20" y="1200" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-27" target="FslqRWNwMzjp_x0dFh8v-33">
           <mxGeometry relative="1" as="geometry" />
@@ -1260,10 +1249,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-27" value="BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1635" width="100" height="50" as="geometry" />
+          <mxGeometry x="20" y="1565" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-28" value="D3：子流水&lt;br&gt;tb_bd_workflow_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1780" width="135" height="40" as="geometry" />
+          <mxGeometry x="300" y="1710" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-33" target="FslqRWNwMzjp_x0dFh8v-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1274,11 +1263,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-33" value="2&lt;br&gt;店铺报名" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1630" width="60" height="60" as="geometry" />
+          <mxGeometry x="250" y="1560" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-33" target="FslqRWNwMzjp_x0dFh8v-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="1660" as="sourcePoint" />
+            <mxPoint x="540" y="1590" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-35" value="报名审核" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FslqRWNwMzjp_x0dFh8v-34">
@@ -1297,14 +1286,14 @@
         <mxCell id="FslqRWNwMzjp_x0dFh8v-39" value="开启工作流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-40" target="FslqRWNwMzjp_x0dFh8v-46">
           <mxGeometry x="0.0526" y="14" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="880" y="1660" as="targetPoint" />
+            <mxPoint x="880" y="1590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wAmI7UZngoBFPgggKqjL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="FslqRWNwMzjp_x0dFh8v-40" target="FslqRWNwMzjp_x0dFh8v-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="545" y="1710" />
-              <mxPoint x="725" y="1710" />
+              <mxPoint x="545" y="1640" />
+              <mxPoint x="725" y="1640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1314,21 +1303,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-40" value="3&lt;br&gt;审批管理" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="515" y="1630" width="60" height="60" as="geometry" />
+          <mxGeometry x="515" y="1560" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-41" value="D4：审批任务&lt;br&gt;tb_bd_general_task" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1780" width="130" height="40" as="geometry" />
+          <mxGeometry x="480" y="1710" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-42" value="D5：bpms任务节点信息&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;tb_bpms_executor_mapping&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="632.5" y="1780" width="185" height="40" as="geometry" />
+          <mxGeometry x="632.5" y="1710" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-32" target="jYy8YAAYdmHGfDKpWLE0-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1120" y="1660" as="targetPoint" />
+            <mxPoint x="1120" y="1590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1180" y="1660" />
-              <mxPoint x="1180" y="1870" />
-              <mxPoint x="70" y="1870" />
+              <mxPoint x="1180" y="1590" />
+              <mxPoint x="1180" y="1800" />
+              <mxPoint x="70" y="1800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1349,14 +1338,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FslqRWNwMzjp_x0dFh8v-46" value="4&lt;br&gt;BPMS" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1630" width="60" height="60" as="geometry" />
+          <mxGeometry x="900" y="1560" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wAmI7UZngoBFPgggKqjL-1" value="D2：主流水&lt;br&gt;tb_bd_workflow_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="126" y="1780" width="135" height="40" as="geometry" />
+          <mxGeometry x="126" y="1710" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wAmI7UZngoBFPgggKqjL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wAmI7UZngoBFPgggKqjL-1" source="FslqRWNwMzjp_x0dFh8v-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127.5" y="1690" as="sourcePoint" />
+            <mxPoint x="127.5" y="1620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wAmI7UZngoBFPgggKqjL-3" value="聚合流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wAmI7UZngoBFPgggKqjL-2">
@@ -1365,11 +1354,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-1" value="D6：BPMS工作流任务" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1780" width="140" height="40" as="geometry" />
+          <mxGeometry x="860" y="1710" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-8" target="jYy8YAAYdmHGfDKpWLE0-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="1930" as="targetPoint" />
+            <mxPoint x="220" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-7" value="审批结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-6">
@@ -1378,10 +1367,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-8" value="BDM/CM" style="html=1;dashed=0;whitespace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1905" width="100" height="50" as="geometry" />
+          <mxGeometry x="20" y="1835" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-9" value="D3：子流水&lt;br&gt;tb_bd_workflow_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="704" y="2050" width="135" height="40" as="geometry" />
+          <mxGeometry x="704" y="1980" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-9">
           <mxGeometry relative="1" as="geometry" />
@@ -1395,12 +1384,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-12" value="2&lt;br&gt;店铺报名" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="741" y="1900" width="60" height="60" as="geometry" />
+          <mxGeometry x="741" y="1830" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1031" y="1930" as="sourcePoint" />
-            <mxPoint x="951" y="1930" as="targetPoint" />
+            <mxPoint x="1031" y="1860" as="sourcePoint" />
+            <mxPoint x="951" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-14" value="报名成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-13">
@@ -1433,20 +1422,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-20" value="3&lt;br&gt;审批管理" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1900" width="60" height="60" as="geometry" />
+          <mxGeometry x="260" y="1830" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-21" value="D4：审批任务&lt;br&gt;tb_bd_general_task" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="2050" width="130" height="40" as="geometry" />
+          <mxGeometry x="330" y="1980" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-22" value="D5：bpms任务节点信息&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;tb_bpms_executor_mapping&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="2050" width="185" height="40" as="geometry" />
+          <mxGeometry x="90" y="1980" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-26" value="D2：主流水&lt;br&gt;tb_bd_workflow_meta" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="2050" width="135" height="40" as="geometry" />
+          <mxGeometry x="530" y="1980" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jYy8YAAYdmHGfDKpWLE0-12" target="jYy8YAAYdmHGfDKpWLE0-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="531.5" y="1960" as="sourcePoint" />
+            <mxPoint x="531.5" y="1890" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-28" value="聚合流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYy8YAAYdmHGfDKpWLE0-27">
@@ -1455,13 +1444,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-32" value="任务信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1635" width="70" height="50" as="geometry" />
+          <mxGeometry x="1090" y="1565" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-36" value="D7：店铺报名单&lt;br&gt;tb_bd_play_shop" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="2050" width="135" height="40" as="geometry" />
+          <mxGeometry x="900" y="1980" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jYy8YAAYdmHGfDKpWLE0-38" value="报名信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1905" width="70" height="50" as="geometry" />
+          <mxGeometry x="1090" y="1835" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
