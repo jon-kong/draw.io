@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T11:42:35.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GHfm9GG3Jv_zN3p-R1bI" version="20.8.20" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-20T13:28:20.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-eBqKbexPHeNHhtfNxxZ" version="20.8.20" type="github" pages="5">
   <diagram id="MzBQtq7YiN6zM8jG2YjZ" name="招商报名数据流">
     <mxGraphModel dx="2389" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -573,10 +573,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ishpwLoTXkCsK9okFveH" name="审批流逻辑架构">
-    <mxGraphModel dx="1562" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WcMPymLkor3JZS4rtrYb-53" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=17;verticalAlign=top;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="10" y="30" width="680" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="WcMPymLkor3JZS4rtrYb-52" value="BPMS" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=17;verticalAlign=top;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="10" y="490" width="680" height="120" as="geometry" />
         </mxCell>
@@ -594,11 +597,11 @@
         <mxCell id="WcMPymLkor3JZS4rtrYb-50" value="任务创建" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="30" y="230" width="180" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="6dfEQezhkA0ixARYiWGI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WcMPymLkor3JZS4rtrYb-51" target="6dfEQezhkA0ixARYiWGI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WcMPymLkor3JZS4rtrYb-51" value="任务审批" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="230" width="190" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="WcMPymLkor3JZS4rtrYb-53" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=17;verticalAlign=top;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="10" y="30" width="680" height="130" as="geometry" />
         </mxCell>
         <mxCell id="WcMPymLkor3JZS4rtrYb-54" value="审批入口" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=17;verticalAlign=top;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="740" y="30" width="202" height="580" as="geometry" />
@@ -699,6 +702,9 @@
         </mxCell>
         <mxCell id="2pxT3qOJou3P44A5Z3TK-1" value="业务单信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="791" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6dfEQezhkA0ixARYiWGI-1" value="状态变更扩展" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="285" y="80" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
