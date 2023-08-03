@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:00:14.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mnqv6nUAyaqeJspZjyrT" version="21.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:03:13.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xO1woSl9LLqj_u7qiA3U" version="21.6.6" type="github" pages="5">
   <diagram name="商品系统交互" id="VvNkXTdB-Jjv38YK5klA">
     <mxGraphModel dx="954" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1245,7 +1245,7 @@
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gxJtALvCy-zgLALP1QQ5-80" target="Q1TbLY7PBC4a5Aq98ytg-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-29" value="4.3 查询小票" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q1TbLY7PBC4a5Aq98ytg-28" vertex="1" connectable="0">
+        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-29" value="4.3 查询小票模板" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q1TbLY7PBC4a5Aq98ytg-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0815" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1318,18 +1318,18 @@
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-18" value="Napos /&amp;nbsp; ISV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="515" y="100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-22" value="4.1 Napos接单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="gxJtALvCy-zgLALP1QQ5-80" edge="1">
+        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-22" value="接单/拉单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="gxJtALvCy-zgLALP1QQ5-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="Q1TbLY7PBC4a5Aq98ytg-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-24" value="4.2 ISV接单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q1TbLY7PBC4a5Aq98ytg-23" vertex="1" connectable="0">
+        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-24" value="4.2 ISV接单/拉单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q1TbLY7PBC4a5Aq98ytg-23" vertex="1" connectable="0">
           <mxGeometry x="0.8095" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-21" value="接单" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-21" value="接单/拉单" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1127.8200000000002" y="160" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-27" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;helvetica neue, chinese quote, system-ui, segoe ui, roboto, pingfang sc, hiragino sans gb, microsoft yahei, helvetica neue, helvetica, arial, sans-serif&quot; color=&quot;#262626&quot;&gt;商家履约设备&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ele-fulfill-device&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
