@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:03:32.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P41Ykt9Oh0Idc9wkSoqC" version="21.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:03:47.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gu74oc6g5qOkQ7r2dHEF" version="21.6.6" type="github" pages="5">
   <diagram name="商品系统交互" id="VvNkXTdB-Jjv38YK5klA">
     <mxGraphModel dx="954" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1323,7 +1323,7 @@
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-18" value="Napos /&amp;nbsp; ISV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="515" y="100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-22" value="接单/拉单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="gxJtALvCy-zgLALP1QQ5-80" edge="1">
+        <mxCell id="Q1TbLY7PBC4a5Aq98ytg-22" value="4.接单/拉单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="gxJtALvCy-zgLALP1QQ5-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q1TbLY7PBC4a5Aq98ytg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Q1TbLY7PBC4a5Aq98ytg-21" target="Q1TbLY7PBC4a5Aq98ytg-8" edge="1">
