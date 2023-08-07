@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T09:19:19.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8DNM5u7Y0Edtda4ZJlyO" version="21.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-07T09:20:24.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Fp-NFnR7v4-Im5ejNKBp" version="21.6.6" type="github" pages="3">
   <diagram name="模型-爆红包" id="RSKxBo_dg0qpYYjJsVa4">
     <mxGraphModel dx="954" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -904,7 +904,7 @@
         <mxCell id="SZ4MhrzjIPstLz-Tximf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uHehWCUNlNpXZMAi0Twx-3" target="uHehWCUNlNpXZMAi0Twx-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SZ4MhrzjIPstLz-Tximf-31" value="3.1.1 创建活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZ4MhrzjIPstLz-Tximf-20">
+        <mxCell id="SZ4MhrzjIPstLz-Tximf-31" value="2.1.1、3.1.1 创建活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZ4MhrzjIPstLz-Tximf-20">
           <mxGeometry x="-0.0431" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -939,9 +939,9 @@
         <mxCell id="SZ4MhrzjIPstLz-Tximf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uHehWCUNlNpXZMAi0Twx-14" target="uHehWCUNlNpXZMAi0Twx-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SZ4MhrzjIPstLz-Tximf-32" value="3.1.1.1 创建供给活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZ4MhrzjIPstLz-Tximf-24">
+        <mxCell id="SZ4MhrzjIPstLz-Tximf-32" value="2.1.1.1、3.1.1.1&lt;br&gt;&amp;nbsp;创建供给活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZ4MhrzjIPstLz-Tximf-24">
           <mxGeometry x="0.1333" y="3" relative="1" as="geometry">
-            <mxPoint x="18" y="-18" as="offset" />
+            <mxPoint x="18" y="-33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uHehWCUNlNpXZMAi0Twx-14" value="平台营销玩法&lt;br&gt;alsc.mp" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
