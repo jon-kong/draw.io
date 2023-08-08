@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T04:15:18.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5i4EQSgQYeBaS_f6hFVf" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T04:16:19.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oLhvVbm281s4XB0YMtey" version="21.6.6" type="github" pages="4">
   <diagram name="模型-爆红包" id="RSKxBo_dg0qpYYjJsVa4">
     <mxGraphModel dx="954" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1149,7 +1149,7 @@
         </mxCell>
         <mxCell id="4t0k-SbxVP6QgsUYmvyy-18" value="2.1 查询报名门槛、出资规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4t0k-SbxVP6QgsUYmvyy-14">
           <mxGeometry x="-0.088" y="1" relative="1" as="geometry">
-            <mxPoint x="1" y="27" as="offset" />
+            <mxPoint x="1" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4t0k-SbxVP6QgsUYmvyy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4t0k-SbxVP6QgsUYmvyy-6" target="4t0k-SbxVP6QgsUYmvyy-9">
